@@ -39,3 +39,24 @@ main{
     width: 268px;
     height: 472px;
 }
+#rede-social img {
+    
+   width: 50px;
+   margin: 10px;
+   border-radius: 50%;
+   box-shadow: 3px 2px 7px black;  
+}
+#rede-social {
+    text-align:right;
+}
+#rede-social  img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.74);
+    box-sizing: border-box;
+    transform: translate( -2px, -2px);
+    box-shadow: 5px 5px 5px black;
+    transition: transform 0.5s ; border: 0.7s;
+
+
+
+}
+
